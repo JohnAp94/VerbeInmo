@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav ul {
+        padding: 0 20px 20px;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .enConstruccion {
+        padding: 0;
+    }
+
+    .enConstruccion img {
+        box-shadow: none;
+        border-radius: 0%;
+    }
+
+    .title-construccion {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+    }
+
+    .social-link {
+        width: 60px;
+        height: 60px;
+    }
+}
